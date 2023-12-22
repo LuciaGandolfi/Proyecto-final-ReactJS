@@ -1,0 +1,76 @@
+/* Estilos para ItemList.css */
+
+.ListGroup {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .CardItem {
+    width: 300px;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+  
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+  
+  .ItemImg {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .ItemInfo {
+    margin-top: 15px;
+  }
+  
+  .Price {
+    font-weight: bold;
+    color: #3498db;
+  }
+  
+  .Stock {
+    color: #2ecc71;
+  }
+  
+  .Category {
+    font-style: italic;
+    color: #e74c3c;
+  }
+  
+  .Itemfooter {
+    margin-top: 15px;
+  }
+  
+  .Option {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #2ecc71;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+  
+    &:hover {
+      background-color: #27ae60;
+    }
+  }
+  /* ItemList.css */
+.ListGroup {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.Item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+}

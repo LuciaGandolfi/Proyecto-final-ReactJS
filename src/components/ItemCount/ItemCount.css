@@ -1,0 +1,44 @@
+
+.Counter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .Controls {
+    display: flex;
+    align-items: center;
+  }
+  
+  .Button {
+    background-color: #3498db; 
+    color: #fff; 
+    border: none;
+    padding: 8px 16px;
+    margin: 0 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .Number {
+    margin: 0 8px;
+    font-size: 18px;
+  }
+  
+  .Button:disabled {
+    background-color: #ccc; 
+    cursor: not-allowed;
+  }
+  
+  .AddToCartButton {
+    margin-top: 16px;
+    background-color: #27ae60; 
+  }
+  
+  .Button {
+    margin-top: 10px; 
+  }
+
+  .Counter span {
+    color: white;
+  }
