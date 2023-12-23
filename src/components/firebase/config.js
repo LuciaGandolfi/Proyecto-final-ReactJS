@@ -7,11 +7,11 @@ import { getFirestore } from "firebase/firestore";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAWw5co7Wdn23ZFV-ddOy1_r4W6Wto0Vvc",
-  authDomain: "lureact-a2c46.firebaseapp.com",
-  projectId: "lureact-a2c46",
-  storageBucket: "lureact-a2c46.appspot.com",
-  appId: "1:618667884369:web:4a3b7aff250770237f5d70"
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
+  authDomain: process.env.REACT_APP_FIREBASE_AUTH_DOMAIN,
+  projectId: process.env.REACT_APP_FIREBASE_PROJECT_ID,
+  storageBucket: process.env.REACT_APP_FIREBASE_STORAGE_BUCKET,
+  appId: process.env.REACT_APP_FIREBASE_APP_ID,
 };
 
 

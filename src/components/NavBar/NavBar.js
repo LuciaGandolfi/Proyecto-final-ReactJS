@@ -56,9 +56,6 @@ const NavBar = () => {
         <NavLink to='/category/boxes' className='Option' activeclassname='ActiveOption'>
           Boxes
         </NavLink>
-        <NavLink to='/category/all' className='Option' activeclassname='ActiveOption'>
-          Todos
-        </NavLink>
       </div>
   
       <div className='CartWidgetContainer'>
